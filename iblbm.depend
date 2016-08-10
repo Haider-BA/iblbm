@@ -1,0 +1,160 @@
+# depslib dependency file v1.0
+1446667744 source:c:\lyer\codeblocks-workspace\iblbm\main.cpp
+	<iostream>
+
+1470798218 source:c:\lyer\codeblocks-workspace\iblbm\src\main-devel.cpp
+	"UnitTest++.h"
+	"UnitTestCustomUtilities.hpp"
+
+1470798822 c:\lyer\codeblocks-workspace\iblbm\unittest++\unittest++.h
+	"UnitTestPP.h"
+
+1470798822 c:\lyer\codeblocks-workspace\iblbm\unittest++\unittestpp.h
+	"Config.h"
+	"TestMacros.h"
+	"CheckMacros.h"
+	"RequireMacros.h"
+	"TestRunner.h"
+	"TimeConstraint.h"
+	"ReportAssert.h"
+
+1470798820 c:\lyer\codeblocks-workspace\iblbm\unittest++\config.h
+
+1470798822 c:\lyer\codeblocks-workspace\iblbm\unittest++\testmacros.h
+	"Config.h"
+	"TestSuite.h"
+	"ExceptionMacros.h"
+	"ExecuteTest.h"
+	"AssertException.h"
+	"TestDetails.h"
+	"MemoryOutStream.h"
+	"Posix/SignalTranslator.h"
+
+1470798822 c:\lyer\codeblocks-workspace\iblbm\unittest++\testsuite.h
+
+1470798820 c:\lyer\codeblocks-workspace\iblbm\unittest++\exceptionmacros.h
+	"Config.h"
+
+1470798820 c:\lyer\codeblocks-workspace\iblbm\unittest++\executetest.h
+	"Config.h"
+	"ExceptionMacros.h"
+	"TestDetails.h"
+	"TestResults.h"
+	"MemoryOutStream.h"
+	"AssertException.h"
+	"RequiredCheckException.h"
+	"CurrentTest.h"
+	"ReportAssertImpl.h"
+	"Posix/SignalTranslator.h"
+
+1470798822 c:\lyer\codeblocks-workspace\iblbm\unittest++\testdetails.h
+	"HelperMacros.h"
+
+1470798820 c:\lyer\codeblocks-workspace\iblbm\unittest++\helpermacros.h
+	"Config.h"
+
+1470800013 c:\lyer\codeblocks-workspace\iblbm\unittest++\testresults.h
+	"HelperMacros.h"
+
+1470798820 c:\lyer\codeblocks-workspace\iblbm\unittest++\memoryoutstream.h
+	"Config.h"
+	"HelperMacros.h"
+	<sstream>
+	<cstddef>
+
+1470798820 c:\lyer\codeblocks-workspace\iblbm\unittest++\assertexception.h
+	"Config.h"
+	"HelperMacros.h"
+	<exception>
+
+1470798821 c:\lyer\codeblocks-workspace\iblbm\unittest++\requiredcheckexception.h
+	"Config.h"
+	"HelperMacros.h"
+	<exception>
+
+1470798820 c:\lyer\codeblocks-workspace\iblbm\unittest++\currenttest.h
+	"HelperMacros.h"
+
+1470798821 c:\lyer\codeblocks-workspace\iblbm\unittest++\reportassertimpl.h
+	"Config.h"
+	"HelperMacros.h"
+	<csetjmp>
+
+1470798820 c:\lyer\codeblocks-workspace\iblbm\unittest++\posix\signaltranslator.h
+	<setjmp.h>
+	<signal.h>
+
+1470798820 c:\lyer\codeblocks-workspace\iblbm\unittest++\checkmacros.h
+	"HelperMacros.h"
+	"ExceptionMacros.h"
+	"Checks.h"
+	"AssertException.h"
+	"RequiredCheckException.h"
+	"MemoryOutStream.h"
+	"TestDetails.h"
+	"CurrentTest.h"
+	"ReportAssertImpl.h"
+
+1470798820 c:\lyer\codeblocks-workspace\iblbm\unittest++\checks.h
+	"Config.h"
+	"TestResults.h"
+	"MemoryOutStream.h"
+
+1470798821 c:\lyer\codeblocks-workspace\iblbm\unittest++\requiremacros.h
+	"RequiredCheckTestReporter.h"
+
+1470798822 c:\lyer\codeblocks-workspace\iblbm\unittest++\requiredchecktestreporter.h
+	"HelperMacros.h"
+	"ThrowingTestReporter.h"
+
+1470798822 c:\lyer\codeblocks-workspace\iblbm\unittest++\throwingtestreporter.h
+	"TestReporter.h"
+
+1470798822 c:\lyer\codeblocks-workspace\iblbm\unittest++\testreporter.h
+	"HelperMacros.h"
+
+1470798822 c:\lyer\codeblocks-workspace\iblbm\unittest++\testrunner.h
+	"Test.h"
+	"TestList.h"
+	"CurrentTest.h"
+
+1470798822 c:\lyer\codeblocks-workspace\iblbm\unittest++\test.h
+	"TestDetails.h"
+
+1470798822 c:\lyer\codeblocks-workspace\iblbm\unittest++\testlist.h
+	"HelperMacros.h"
+
+1470798822 c:\lyer\codeblocks-workspace\iblbm\unittest++\timeconstraint.h
+	"TimeHelpers.h"
+	"HelperMacros.h"
+	"TestDetails.h"
+
+1470798822 c:\lyer\codeblocks-workspace\iblbm\unittest++\timehelpers.h
+	"Config.h"
+	"Posix/TimeHelpers.h"
+	"Win32/TimeHelpers.h"
+
+1470798820 c:\lyer\codeblocks-workspace\iblbm\unittest++\posix\timehelpers.h
+	<sys/time.h>
+
+1470798822 c:\lyer\codeblocks-workspace\iblbm\unittest++\win32\timehelpers.h
+	"../Config.h"
+	"../HelperMacros.h"
+
+1470798821 c:\lyer\codeblocks-workspace\iblbm\unittest++\reportassert.h
+	"HelperMacros.h"
+
+1470799962 c:\lyer\codeblocks-workspace\iblbm\unittests\unittestcustomutilities.hpp
+	<algorithm>
+	<string>
+	<vector>
+	"UnitTest++.h"
+	"TestReporterStdout.h"
+
+1470798822 c:\lyer\codeblocks-workspace\iblbm\unittest++\testreporterstdout.h
+	"TestReporter.h"
+
+1470798673 source:c:\lyer\codeblocks-workspace\iblbm\unittests\testlatticemodel.cpp
+	<iostream>
+	"UnitTest++.h"
+
