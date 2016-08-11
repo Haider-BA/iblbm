@@ -14,7 +14,9 @@ namespace UnitTest
    class UNITTEST_LINKAGE MemoryOutStream : public std::ostringstream
    {
    public:
-      MemoryOutStream() {}
+      MemoryOutStream()
+        : m_text()
+      {}
       ~MemoryOutStream() {}
       void Clear();
       char const* GetText() const;

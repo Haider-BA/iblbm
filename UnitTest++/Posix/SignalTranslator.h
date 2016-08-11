@@ -11,6 +11,8 @@ namespace UnitTest {
    public:
       SignalTranslator();
       ~SignalTranslator();
+      SignalTranslator(const SignalTranslator&) = delete;
+      SignalTranslator operator=(const SignalTranslator&) = delete;
 
       static sigjmp_buf* s_jumpTarget;
 

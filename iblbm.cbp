@@ -59,6 +59,9 @@
 			<Add directory="UnitTest++" />
 			<Add directory="unittests" />
 		</Compiler>
+		<Unit filename="include/lattice/LatticeModel.hpp" />
+		<Unit filename="include/utility/DebugUtility.hpp" />
+		<Unit filename="src/lattice/LatticeModel.cpp" />
 		<Unit filename="src/main-devel.cpp" />
 		<Unit filename="unittests/TestLatticeModel.cpp">
 			<Option target="Debug" />

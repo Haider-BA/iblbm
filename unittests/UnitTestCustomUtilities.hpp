@@ -81,13 +81,13 @@ inline int RunOneTest(std::string TestName)
     }
     UnitTest::Test* q = p;
     p = p->m_nextTest;
-    q->m_nextTest = NULL;
+    q->m_nextTest = nullptr;
   }
 
   UnitTest::TestReporterStdout reporter;
   UnitTest::TestRunner runner(reporter);
 
-  return runner.RunTestsIf(selectedTests, 0, UnitTest::True(), 0);
+  return runner.RunTestsIf(selectedTests, nullptr, UnitTest::True(), 0);
 }
 
 /**
@@ -117,13 +117,13 @@ inline int RunOneSuite(std::string SuiteName)
     }
     UnitTest::Test* q = p;
     p = p->m_nextTest;
-    q->m_nextTest = NULL;
+    q->m_nextTest = nullptr;
   }
 
   UnitTest::TestReporterStdout reporter;
   UnitTest::TestRunner runner(reporter);
 
-  return runner.RunTestsIf(selectedTests, 0, UnitTest::True(), 0 );
+  return runner.RunTestsIf(selectedTests, nullptr, UnitTest::True(), 0 );
 }
 
 /**
@@ -158,13 +158,13 @@ inline int RunMultipleTests(std::vector<std::string> test_names)
     }
     UnitTest::Test* q = p;
     p = p->m_nextTest;
-    q->m_nextTest = NULL;
+    q->m_nextTest = nullptr;
   }
 
   UnitTest::TestReporterStdout reporter;
   UnitTest::TestRunner runner(reporter);
 
-  return runner.RunTestsIf(selectedTests, 0, UnitTest::True(), 0);
+  return runner.RunTestsIf(selectedTests, nullptr, UnitTest::True(), 0);
 }
 
 /**
@@ -197,13 +197,13 @@ inline int RunMultipleSuites(std::vector<std::string> suite_names)
     }
     UnitTest::Test* q = p;
     p = p->m_nextTest;
-    q->m_nextTest = NULL;
+    q->m_nextTest = nullptr;
   }
 
   UnitTest::TestReporterStdout reporter;
   UnitTest::TestRunner runner(reporter);
 
-  return runner.RunTestsIf(selectedTests, 0, UnitTest::True(), 0 );
+  return runner.RunTestsIf(selectedTests, nullptr, UnitTest::True(), 0 );
 }
 #undef COVERAGE_IGNORE
 

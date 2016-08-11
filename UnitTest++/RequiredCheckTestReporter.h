@@ -15,6 +15,9 @@ namespace UnitTest {
    public:
       explicit RequiredCheckTestReporter(TestResults& results);
       ~RequiredCheckTestReporter();
+      RequiredCheckTestReporter(const RequiredCheckTestReporter&) = delete;
+      RequiredCheckException operator=(const RequiredCheckTestReporter&) =
+          delete;
 
       bool Next();
 

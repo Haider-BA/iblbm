@@ -11,6 +11,8 @@ namespace UnitTest {
    {
    public:
       explicit ThrowingTestReporter(TestReporter* reporter);
+      ThrowingTestReporter(const ThrowingTestReporter&) = delete;
+      ThrowingTestReporter operator=(const ThrowingTestReporter&) = delete;
 
       virtual ~ThrowingTestReporter();
       virtual void ReportTestStart(TestDetails const& test);

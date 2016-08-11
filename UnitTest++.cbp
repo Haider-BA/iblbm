@@ -190,8 +190,14 @@
 		<Unit filename="UnitTest++/TimeHelpers.h" />
 		<Unit filename="UnitTest++/UnitTest++.h" />
 		<Unit filename="UnitTest++/UnitTestPP.h" />
-		<Unit filename="UnitTest++/Win32/TimeHelpers.cpp" />
-		<Unit filename="UnitTest++/Win32/TimeHelpers.h" />
+		<Unit filename="UnitTest++/Win32/TimeHelpers.cpp">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="UnitTest++/Win32/TimeHelpers.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
 		<Unit filename="UnitTest++/XmlTestReporter.cpp" />
 		<Unit filename="UnitTest++/XmlTestReporter.h" />
 		<Extensions>

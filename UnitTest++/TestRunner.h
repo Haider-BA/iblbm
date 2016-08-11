@@ -26,6 +26,8 @@ namespace UnitTest {
    public:
       explicit TestRunner(TestReporter& reporter);
       ~TestRunner();
+      TestRunner(const TestRunner&) = delete;
+      TestRunner& operator=(const TestRunner&) = delete;
 
       template< class Predicate >
       int RunTestsIf(TestList const& list, char const* suiteName,
@@ -33,7 +35,7 @@ namespace UnitTest {
       {
          Test* curTest = list.GetHead();
 
-         while (curTest != 0)
+         while (curTest != nullptr)
          {
             if (IsTestInSuite(curTest, suiteName) && predicate(curTest))
                RunTest(m_result, curTest, maxTestTimeInMs);
